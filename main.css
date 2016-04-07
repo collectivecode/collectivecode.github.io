@@ -9,20 +9,34 @@ html {
 }
 
 body {
-  background: url(assets/Gregg.png) repeat 15% 15%;
+  font-family: 'Lobster';
+  font-size: 14px;
+}
+
+body:before {
+  content: "";
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-position: 15% 15%;
+  background-size: 15%;
   -webkit-background-size: 15%;
   -moz-background-size: 15%;
   -o-background-size: 15%;
-  background-size: 15%;
-  font-family: 'Lobster';
-  font-size: 14px;
+  display: block;
+  height: 100%;
+  left: 0;
   opacity: 0;
-
   transition: opacity 3s ease-in-out;
   -webkit-transition: opacity 3s ease-in-out;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1;
 }
 
-.body {
+.body:before {
+  background-image: url('assets/Gregg.png');
   opacity: 1;
 }
 
