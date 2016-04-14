@@ -1,0 +1,21 @@
+body{
+background_color:#d0e4fe;
+}
+
+p {
+color: blue;
+background_color: yellow;
+}
+
+h1, h2{
+font_family: "Arial";
+}
+
+#top_content {
+text_align: center;
+}
+
+.list_div {
+border: 1px solid blue;
+padding: 10px;
+}
