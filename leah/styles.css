@@ -1,18 +1,18 @@
 body{
-background_color:#d0e4fe;
+background-color:#d0e4fe;
 }
 
 p {
 color: blue;
-background_color: yellow;
+background-color: yellow;
 }
 
 h1, h2{
-font_family: "Arial";
+font-family: "Arial";
 }
 
 #top_content {
-text_align: center;
+text-align: center;
 }
 
 .list_div {
